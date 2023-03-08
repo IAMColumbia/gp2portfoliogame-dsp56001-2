@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0082e48d885965e488c280d2b8ea3c69, type: 3}
+  m_Name: ColorLightData4Randlights
+  m_EditorClassIdentifier: 
+  objectName: New ScriptableColorLight Data
+  colorIsRandom: 1
+  thisColor: {r: 1, g: 1, b: 1, a: 1}
+  spawnPoints:
+  - {x: 1, y: 1, z: 0}
+  - {x: 1, y: -1, z: 0}
+  - {x: -1, y: 1, z: 0}
+  - {x: -1, y: -1, z: 0}
+  Intensity: 1
+  PointLightInnerRadius: 0
+  PointLightOuterRadius: 1.5
+  LightType: 3
